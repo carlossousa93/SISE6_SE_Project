@@ -14,7 +14,7 @@ public class CommissionMethodTest {
 	private static final String TARGET_IBAN = "TargetIban";
 
 	@Test
-	public void transferOperation1000() throws OperationException {
+	public void transferOperation1000() throws OperationException { /// Beja é gay
 		Operation operation = new TransferOperation(SOURCE_IBAN, TARGET_IBAN, 1000);
 
 		assertEquals(51, operation.commission());
